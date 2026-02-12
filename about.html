@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us – Mansparsh</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.5/tsparticles.min.js"></script>
+</head>
+
+<body>
+
+    <div class="scroll-progress" id="scroll-bar"></div>
+    <div id="tsparticles"></div>
+
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Mansparsh</a>
+            <div class="hamburger">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary" style="padding: 8px 20px;">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="theme-customizer">
+        <button class="theme-btn" id="theme-toggle">🌙</button>
+    </div>
+
+    <!-- About Hero -->
+    <header class="hero" style="min-height: 60vh;">
+        <div class="container text-center">
+            <div class="hero-content reveal" style="max-width: 800px; margin: 0 auto;">
+                <h1>Guiding You towards <br> <span style="color: var(--accent-color);">Inner Balance</span></h1>
+                <p>Mansparsh is more than just therapy; it's a movement towards holistic mental well-being.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Therapist Profile -->
+    <section class="section">
+        <div class="container">
+            <div class="glass card reveal meet-therapist-container">
+
+                <div class="therapist-img-container tilt-effect">
+                    <img src="https://res.cloudinary.com/dcgppqjzk/image/upload/f_auto,q_auto/v1770894970/WhatsApp_Image_2026-02-12_at_01.46.03_mxazsm.jpg"
+                        alt="Dr. B. Mounika" loading="lazy">
+                </div>
+
+                <div class="therapist-info">
+                    <h2>Dr. B. Mounika</h2>
+                    <h4 style="color: var(--secondary-color); margin-bottom: 20px;">Founder & Lead Psychologist</h4>
+
+                    <p>
+                        With years of experience in clinical psychology, Dr. Mounika believes in a compassionate,
+                        non-judgmental approach to healing. Her expertise lies in Cognitive Behavioral Therapy (CBT),
+                        stress management, and emotional regulation.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        "My mission is to create a safe space where every individual feels heard, validated, and
+                        empowered to reclaim their mental health."
+                    </p>
+
+                    <div style="margin-top: 30px; display: flex; gap: 20px; flex-wrap: wrap;">
+                        <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                        <a href="mailto:Mansparshcare@gmail.com" class="btn btn-glass">
+                            <i class="fas fa-envelope"></i> Email Me
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="section">
+        <div class="container">
+            <div class="cards-grid">
+
+                <div class="glass card reveal text-center">
+                    <div class="card-icon" style="color: var(--accent-color);">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>
+                        To normalize mental health conversations and make premium psychological care accessible to
+                        everyone, everywhere.
+                    </p>
+                </div>
+
+                <div class="glass card reveal text-center">
+                    <div class="card-icon" style="color: var(--primary-color);">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>
+                        Providing evidence-based, empathetic, and personalized therapy that transforms lives and fosters
+                        emotional resilience.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials / Stats -->
+    <section class="section" style="padding-bottom: 100px;">
+        <div class="container">
+            <div class="glass card reveal" style="padding: 40px;">
+
+                <div class="grid"
+                    style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; text-align: center;">
+
+                    <div class="stat-item">
+                        <h2 class="counter" data-target="500" style="font-size: 3rem; color: var(--primary-color);">0
+                        </h2>
+                        <p>Lives Touched</p>
+                    </div>
+
+                    <div class="stat-item">
+                        <h2 class="counter" data-target="1000" style="font-size: 3rem; color: var(--secondary-color);">0
+                        </h2>
+                        <p>Hours of Therapy</p>
+                    </div>
+
+                    <div class="stat-item">
+                        <h2 class="counter" data-target="50" style="font-size: 3rem; color: var(--accent-color);">0</h2>
+                        <p>Workshops Conducted</p>
+                    </div>
+
+                    <div class="stat-item">
+                        <h2 class="counter" data-target="100" style="font-size: 3rem; color: #ff00cc;">0</h2>
+                        <p>% Commitment</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call Now Floating Button -->
+    <a href="tel:+916309009096" class="floating-call-btn blur-in" aria-label="Call Now">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div>
+                    <h3>Mansparsh</h3>
+                    <p>Your sanctuary for mental healing and growth.</p>
+                </div>
+
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Book Appointment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Contact</h3>
+                    <p>Email: Mansparshcare@gmail.com</p>
+                    <p>Phone: +91 63090 09096</p>
+                    <p>Location: Tirupati</p>
+                </div>
+
+                <div>
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                <p>&copy; 2024 Mansparsh. All rights reserved.</p>
+                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 5px;">Developed by Shivashakthi IT Solutions</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+
+        const animateCounters = () => {
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const inc = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc);
+                        setTimeout(updateCount, 20);
+                    } else {
+                        counter.innerText = target + "+";
+                    }
+                };
+                updateCount();
+            });
+        };
+
+        let animated = false;
+        window.addEventListener('scroll', () => {
+            const section = document.querySelector('.stat-item');
+            if (section) {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight && !animated) {
+                    animateCounters();
+                    animated = true;
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
